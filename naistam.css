@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.group ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.group ul li{
+    width: 200px;
+    height: 40px;
+    background-color:burlywood;
+    line-height: 40px;
+    font-size: 20px;
+}
+.group ul li a{
+    text-decoration: none;
+    background-color:red;
+    display: block;
+}
+.group ul li a:hover{
+    background-color:blue;
+    display: block;
+}
+.group ul li ul li:hover::after{
+    background-color:red;
+}
+.group ul li ul li {
+    display: none;
+}
+.group ul li:hover ul li {
+    display: block;
+}
+.group ul li a i{
+    padding-left: 10px;
+}

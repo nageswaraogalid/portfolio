@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+p{
+    text-align: center;
+}
+.paragraph{
+    margin-left: 100px;
+    color: blue;
+}
+.links {
+    float: right;
+}
+img{
+    margin-left: 200px;
+}
+.table{
+    text-align:center;
+}

@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.portfolio{
+    width:100px;
+    line-height: 5px;
+    margin-left: 350px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    display: flex;
+    padding-left: 40px;
+
+} 
+.portfolio a{
+    text-decoration: none;
+    color: white;
+
+}
+.portfolio a h3{
+    font-size: 0.85em;
+    font-family: Roboto, Noto Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.portfolio:hover{
+    background: linear-gradient(to right, #039ba5,#04a551);
+
+}
+.home{
+    width:100px;
+    line-height: 5px;
+    border: 1px solid grey;
+    margin-left: 945px;
+    padding-left: 15px;
+    margin-top: 30px;
+    position: absolute; 
+    margin-top: -44px;
+ }
+ .home a{
+     text-decoration: none;
+     color: white;
+ }
+ .home a h3{
+     font-size: 0.85em;    
+     font-family: Roboto, Noto Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+ }
+ .home:hover{
+    background: linear-gradient(to right, #039ba5,#04a551);
+
+ }
+.row{
+    width: 50%;
+    height: 200px;
+    background-color:black;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.row h2{
+    text-align: center;
+    color: #000;
+    border-radius: 2px;
+    background-color: white;
+    padding:  5px 10px;
+    margin: 0 auto 25px auto;
+    display: block;
+    width: 250px;   
+    font-family: Roboto, Noto Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.15em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.row p{
+    text-align: center;
+    color: white;  
+    font-family: Roboto, Noto Sans, Helvetica Neue, Helvetica, Arial, sans-seri;
+    font-size: 1.1em;
+}
+.row a{
+    color: white;
+    margin-left: 200px;
+    text-decoration: none;
+    color: white;
+}
+
