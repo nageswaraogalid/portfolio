@@ -13,6 +13,10 @@ width: 100vw;
   box-sizing: border-box;
   text-decoration: none;
 }
+@media screen and (max-width: 800px) {
+  .dropbtn, .dropdown, .dropdown-content {
+    width: 100%; 
+  }
 .dropbtn {
   padding: 10px;
   font-size: 10px;
@@ -65,9 +69,7 @@ width: 100vw;
 body {
 font-family: Arial, Helvetica, sans-serif;
 }
-/* *{
-  box-sizing: border-content;
-} */
+
 .container {
 width: 100%; 
 background-color: #ddd;
@@ -113,7 +115,7 @@ background-color: #ddd;
   color: aqua;
 }
 
-#naga1{
+#naga1 {
     text-align: center;
     color:white;
     margin: 250px auto 0px 240px;
@@ -125,8 +127,4 @@ background-color: #ddd;
     border: 2px solid white;
     opacity: 2.50;
     cursor: pointer;
-  }
-  
-  
-  
-
+}
